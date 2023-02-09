@@ -1,5 +1,5 @@
 //your code herefun
-function  mincost() {
+function  mincost(arr,n) {
 	let arr=[];
 	for(let i=0;i<n;i++){
 		arr.push(arr[i]);
@@ -13,3 +13,5 @@ function  mincost() {
 	}
 	return res;
 }
+let arr=[1,2,3,4];
+document.write(mincost(arr,4));
